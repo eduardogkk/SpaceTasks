@@ -16,19 +16,20 @@ import {PhPlusCircle} from "@phosphor-icons/vue";
   </form>
 </template>
 
-<style>
+<style scoped>
   .CreateTaskForm {
     display: flex;
     justify-content: center;
     gap: 0.85rem;
     margin-top: -1.45rem;
+    width: auto;
   }
 
   .CreateTaskForm textarea {
     border: 0;
     resize: none;
     height: 3.1rem;
-    width: 26rem;
+    width: 50rem;
     padding: 0.85rem;
     background: var(--gray-500);
     border-radius: 8px;
