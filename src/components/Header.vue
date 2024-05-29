@@ -7,7 +7,7 @@
     <div>
       <div class="icon"><ph-rocket-launch :size="33"/></div>
       <strong class="strongSpace">Space</strong>
-      <strong class="strongTask">Task</strong>
+      <strong class="strongTask">Tasks</strong>
     </div>
   </header>
 </template>

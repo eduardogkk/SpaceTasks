@@ -40,6 +40,8 @@ import {PhPlusCircle} from "@phosphor-icons/vue";
   }
 
   .CreateTaskForm textarea:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--purple-dark);
     background: var(--gray-400);
   }
 

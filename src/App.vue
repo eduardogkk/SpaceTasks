@@ -28,15 +28,10 @@ import TaskList from "./components/TaskList.vue";
 
   --blue-dark: #1E6F9F;
   --blue: #4EA8DE;
-  --purple-dark: ##5E60CE;
+  --purple-dark: #5E60CE;
   --purple: #8284FA;
 
   --danger: #E25858;
-}
-
-:focus {
-  outline: transparent;
-  box-shadow: 0 0 0 2px var(--purple-dark)
 }
 
 * {
@@ -54,7 +49,7 @@ body {
 body,
 textarea,
 button,
-input {
+input, p {
   font-family: "inter", sans-serif;
   font-weight: 400;
   font-size: 1rem;
